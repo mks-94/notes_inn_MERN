@@ -1,0 +1,14 @@
+{
+  "name": "notes_inn_mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "MuraliKrishna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
