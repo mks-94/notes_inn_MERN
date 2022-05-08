@@ -1,11 +1,18 @@
-import "./App.css";
+import React from "react";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import LandingPage from "./screens/LandingPage/LandingPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>Notes_Inn_Online</h2>
-    </div>
+    <>
+      <Header />
+      <main>
+        <LandingPage />
+      </main>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
